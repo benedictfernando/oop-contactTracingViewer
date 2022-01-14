@@ -47,7 +47,7 @@
             this.genderGroup = new System.Windows.Forms.GroupBox();
             this.gender = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.page = new System.Windows.Forms.Label();
+            this.pages = new System.Windows.Forms.Label();
             this.right = new System.Windows.Forms.Button();
             this.left = new System.Windows.Forms.Button();
             this.outerTable.SuspendLayout();
@@ -301,7 +301,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.tableLayoutPanel1.Controls.Add(this.page, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.pages, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.right, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.left, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -314,16 +314,16 @@
             this.tableLayoutPanel1.Size = new System.Drawing.Size(237, 66);
             this.tableLayoutPanel1.TabIndex = 19;
             // 
-            // page
+            // pages
             // 
-            this.page.AutoSize = true;
-            this.page.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.page.Location = new System.Drawing.Point(78, 10);
-            this.page.Name = "page";
-            this.page.Size = new System.Drawing.Size(81, 46);
-            this.page.TabIndex = 0;
-            this.page.Text = "X out of Y";
-            this.page.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pages.AutoSize = true;
+            this.pages.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pages.Location = new System.Drawing.Point(78, 10);
+            this.pages.Name = "pages";
+            this.pages.Size = new System.Drawing.Size(81, 46);
+            this.pages.TabIndex = 0;
+            this.pages.Text = "Loading...";
+            this.pages.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // right
             // 
@@ -334,9 +334,11 @@
             this.right.TabIndex = 10;
             this.right.Text = ">";
             this.right.UseVisualStyleBackColor = true;
+            this.right.Click += new System.EventHandler(this.transferPage);
             // 
             // left
             // 
+            this.left.Enabled = false;
             this.left.Font = new System.Drawing.Font("Century Gothic", 13.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.left.Location = new System.Drawing.Point(3, 13);
             this.left.Name = "left";
@@ -344,6 +346,7 @@
             this.left.TabIndex = 9;
             this.left.Text = "<";
             this.left.UseVisualStyleBackColor = true;
+            this.left.Click += new System.EventHandler(this.transferPage);
             // 
             // viewer
             // 
@@ -396,6 +399,6 @@
         private System.Windows.Forms.GroupBox genderGroup;
         private System.Windows.Forms.Label gender;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
-        private System.Windows.Forms.Label page;
+        private System.Windows.Forms.Label pages;
     }
 }
