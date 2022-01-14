@@ -118,7 +118,7 @@
             this.header.Location = new System.Drawing.Point(3, 0);
             this.header.Name = "header";
             this.header.Padding = new System.Windows.Forms.Padding(5, 0, 0, 0);
-            this.header.Size = new System.Drawing.Size(728, 68);
+            this.header.Size = new System.Drawing.Size(724, 67);
             this.header.TabIndex = 0;
             this.header.Text = "CT Database";
             this.header.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -128,9 +128,9 @@
             this.innerTable.SetColumnSpan(this.submissionGroup, 2);
             this.submissionGroup.Controls.Add(this.submission);
             this.submissionGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.submissionGroup.Location = new System.Drawing.Point(3, 71);
+            this.submissionGroup.Location = new System.Drawing.Point(3, 70);
             this.submissionGroup.Name = "submissionGroup";
-            this.submissionGroup.Size = new System.Drawing.Size(482, 62);
+            this.submissionGroup.Size = new System.Drawing.Size(480, 61);
             this.submissionGroup.TabIndex = 12;
             this.submissionGroup.TabStop = false;
             this.submissionGroup.Text = "Date and Time of Submission";
@@ -143,7 +143,7 @@
             this.submission.Location = new System.Drawing.Point(3, 18);
             this.submission.Name = "submission";
             this.submission.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.submission.Size = new System.Drawing.Size(476, 41);
+            this.submission.Size = new System.Drawing.Size(474, 40);
             this.submission.TabIndex = 0;
             this.submission.Text = "Loading...";
             this.submission.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -153,9 +153,9 @@
             this.innerTable.SetColumnSpan(this.nameGroup, 2);
             this.nameGroup.Controls.Add(this.name);
             this.nameGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.nameGroup.Location = new System.Drawing.Point(3, 139);
+            this.nameGroup.Location = new System.Drawing.Point(3, 137);
             this.nameGroup.Name = "nameGroup";
-            this.nameGroup.Size = new System.Drawing.Size(482, 62);
+            this.nameGroup.Size = new System.Drawing.Size(480, 61);
             this.nameGroup.TabIndex = 13;
             this.nameGroup.TabStop = false;
             this.nameGroup.Text = "Full Name";
@@ -168,7 +168,7 @@
             this.name.Location = new System.Drawing.Point(3, 18);
             this.name.Name = "name";
             this.name.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.name.Size = new System.Drawing.Size(476, 41);
+            this.name.Size = new System.Drawing.Size(474, 40);
             this.name.TabIndex = 0;
             this.name.Text = "Loading...";
             this.name.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -178,9 +178,9 @@
             this.innerTable.SetColumnSpan(this.addressGroup, 3);
             this.addressGroup.Controls.Add(this.address);
             this.addressGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.addressGroup.Location = new System.Drawing.Point(3, 207);
+            this.addressGroup.Location = new System.Drawing.Point(3, 204);
             this.addressGroup.Name = "addressGroup";
-            this.addressGroup.Size = new System.Drawing.Size(728, 62);
+            this.addressGroup.Size = new System.Drawing.Size(724, 61);
             this.addressGroup.TabIndex = 14;
             this.addressGroup.TabStop = false;
             this.addressGroup.Text = "Complete Address";
@@ -193,7 +193,7 @@
             this.address.Location = new System.Drawing.Point(3, 18);
             this.address.Name = "address";
             this.address.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.address.Size = new System.Drawing.Size(722, 41);
+            this.address.Size = new System.Drawing.Size(718, 40);
             this.address.TabIndex = 0;
             this.address.Text = "Loading...";
             this.address.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -202,9 +202,9 @@
             // 
             this.contactsGroup.Controls.Add(this.contacts);
             this.contactsGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contactsGroup.Location = new System.Drawing.Point(3, 275);
+            this.contactsGroup.Location = new System.Drawing.Point(3, 271);
             this.contactsGroup.Name = "contactsGroup";
-            this.contactsGroup.Size = new System.Drawing.Size(238, 62);
+            this.contactsGroup.Size = new System.Drawing.Size(237, 61);
             this.contactsGroup.TabIndex = 15;
             this.contactsGroup.TabStop = false;
             this.contactsGroup.Text = "Contacts";
@@ -217,7 +217,7 @@
             this.contacts.Location = new System.Drawing.Point(3, 18);
             this.contacts.Name = "contacts";
             this.contacts.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.contacts.Size = new System.Drawing.Size(232, 41);
+            this.contacts.Size = new System.Drawing.Size(231, 40);
             this.contacts.TabIndex = 0;
             this.contacts.Text = "Loading...";
             this.contacts.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -227,9 +227,9 @@
             this.innerTable.SetColumnSpan(this.statusGroup, 2);
             this.statusGroup.Controls.Add(this.status);
             this.statusGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.statusGroup.Location = new System.Drawing.Point(247, 275);
+            this.statusGroup.Location = new System.Drawing.Point(246, 271);
             this.statusGroup.Name = "statusGroup";
-            this.statusGroup.Size = new System.Drawing.Size(484, 62);
+            this.statusGroup.Size = new System.Drawing.Size(481, 61);
             this.statusGroup.TabIndex = 16;
             this.statusGroup.TabStop = false;
             this.statusGroup.Text = "Status";
@@ -242,7 +242,7 @@
             this.status.Location = new System.Drawing.Point(3, 18);
             this.status.Name = "status";
             this.status.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.status.Size = new System.Drawing.Size(478, 41);
+            this.status.Size = new System.Drawing.Size(475, 40);
             this.status.TabIndex = 0;
             this.status.Text = "Loading...";
             this.status.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -251,9 +251,9 @@
             // 
             this.tempGroup.Controls.Add(this.temp);
             this.tempGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tempGroup.Location = new System.Drawing.Point(491, 71);
+            this.tempGroup.Location = new System.Drawing.Point(489, 70);
             this.tempGroup.Name = "tempGroup";
-            this.tempGroup.Size = new System.Drawing.Size(240, 62);
+            this.tempGroup.Size = new System.Drawing.Size(238, 61);
             this.tempGroup.TabIndex = 17;
             this.tempGroup.TabStop = false;
             this.tempGroup.Text = "Temperature";
@@ -266,7 +266,7 @@
             this.temp.Location = new System.Drawing.Point(3, 18);
             this.temp.Name = "temp";
             this.temp.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.temp.Size = new System.Drawing.Size(234, 41);
+            this.temp.Size = new System.Drawing.Size(232, 40);
             this.temp.TabIndex = 0;
             this.temp.Text = "Loading...";
             this.temp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -275,9 +275,9 @@
             // 
             this.genderGroup.Controls.Add(this.gender);
             this.genderGroup.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.genderGroup.Location = new System.Drawing.Point(491, 139);
+            this.genderGroup.Location = new System.Drawing.Point(489, 137);
             this.genderGroup.Name = "genderGroup";
-            this.genderGroup.Size = new System.Drawing.Size(240, 62);
+            this.genderGroup.Size = new System.Drawing.Size(238, 61);
             this.genderGroup.TabIndex = 18;
             this.genderGroup.TabStop = false;
             this.genderGroup.Text = "Gender";
@@ -290,7 +290,7 @@
             this.gender.Location = new System.Drawing.Point(3, 18);
             this.gender.Name = "gender";
             this.gender.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.gender.Size = new System.Drawing.Size(234, 41);
+            this.gender.Size = new System.Drawing.Size(232, 40);
             this.gender.TabIndex = 0;
             this.gender.Text = "Loading...";
             this.gender.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -305,13 +305,13 @@
             this.tableLayoutPanel1.Controls.Add(this.right, 2, 1);
             this.tableLayoutPanel1.Controls.Add(this.left, 0, 1);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(247, 343);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(246, 338);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(238, 65);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(237, 66);
             this.tableLayoutPanel1.TabIndex = 19;
             // 
             // page
@@ -320,7 +320,7 @@
             this.page.Dock = System.Windows.Forms.DockStyle.Fill;
             this.page.Location = new System.Drawing.Point(78, 10);
             this.page.Name = "page";
-            this.page.Size = new System.Drawing.Size(82, 45);
+            this.page.Size = new System.Drawing.Size(81, 46);
             this.page.TabIndex = 0;
             this.page.Text = "X out of Y";
             this.page.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -328,7 +328,7 @@
             // right
             // 
             this.right.Font = new System.Drawing.Font("Century Gothic", 13.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.right.Location = new System.Drawing.Point(166, 13);
+            this.right.Location = new System.Drawing.Point(165, 13);
             this.right.Name = "right";
             this.right.Size = new System.Drawing.Size(69, 39);
             this.right.TabIndex = 10;
@@ -357,6 +357,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "viewer";
             this.Text = "Contact Tracing Viewer";
+            this.Load += new System.EventHandler(this.viewer_Load);
             this.outerTable.ResumeLayout(false);
             this.innerTable.ResumeLayout(false);
             this.innerTable.PerformLayout();
