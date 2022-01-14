@@ -29,8 +29,8 @@ namespace oop_contactTracingViewer
 
             if (File.Exists(database))
             {
-                entries = File.ReadAllText(database).Split("\n\n");
-                firstEntry();
+                entries = File.ReadAllText(database).Split("\n\n")
+                    .SkipLast(1).ToArray(); firstEntry();
             }
             else
             {
